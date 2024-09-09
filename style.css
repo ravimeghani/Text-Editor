@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title Style */
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #957dad;
+}
+
+/* Section Styles */
+section {
+    padding: 5%;
+    padding-top: 0;
+    height: 100vh;
+}
+
+/* Button Styles */
+button {
+    margin: 10px;
+    border: 2px solid #957dad;
+    color: #888888;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fec8d8;
+}
+
+/* Textarea Styles */
+textarea {
+    padding: 3%;
+    border: 3px solid #957dad;
+    width: 93.5%;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none
+
+}
+
+/* Flexbox for buttons and text area */
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+/* Shadow Class */
+.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

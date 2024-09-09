@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Text Editor</title>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"/>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="shadow-sm">TEXT EDITOR</h1>
+            <div class="flex-box">
+            
+                    <!-- Buttons for text formatting -->
+                    <button type="button" onclick="f1()" class="shadow-sm" title="Bold Text">Bold</button>
+                    <button type="button" onclick="f2()" class="shadow-sm" title="Italic Text">Italic</button>
+                    <button type="button" onclick="f3()" class="shadow-sm" title="Left Align"><i
+                            class="fas fa-align-left"></i></button>
+                    <button type="button" onclick="f4()" class="shadow-sm" title="Center Align"><i
+                            class="fas fa-align-center"></i></button>
+                    <button type="button" onclick="f5()" class="shadow-sm" title="Right Align"><i
+                            class="fas fa-align-right"></i></button>
+                    <button type="button" onclick="f6()" class="shadow-sm" title="Uppercase Text">Upper Case</button>
+                    <button type="button" onclick="f7()" class="shadow-sm" title="Lowercase Text">Lower Case</button>
+                    <button type="button" onclick="f8()" class="shadow-sm" title="Capitalize Text">Capitalize</button>
+                    <button type="button" onclick="f9()" class="shadow-sm" title="Clear Text">Clear Text</button>
+             
+            </div>
+        <br>
+                    <textarea id="textarea1" class="input shadow" name="name" rows="15" cols="100"
+                        placeholder="Your text here" >
+                    </textarea>
+                
+            
+    </section>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
